@@ -1,0 +1,45 @@
+dircite.png
+
+.vscode/settings.json
+
+# Latex Stuff
+*.fls
+*.bcf
+*.lot
+*.lof
+*.run.xml
+*.glg
+*.glo
+*.gls
+*.ist
+*.bib.bak
+*.bib.sav.tmp
+*.equ
+
+
+# More LaTeX Stuff ( from: https://gist.githubusercontent.com/misberner/8316891/raw/207c5dc215a985a075867ef6dfea3ba3118742f2/.gitignore-latex )
+
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+
+# PDF output - usually a bad idea to keep this in Git
+main.pdf
+
+# Latexmk
+*.fdb_latexmk
+
+# SyncTeX
+*.synctex.gz
+*.synctex(busy)
+
+# LaTeX Beamer
+*.snm
+*.vrb
+*.nav
+*.out
+
+# BibTeX
+*.bbl
+*.blg
