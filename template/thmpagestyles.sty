@@ -53,7 +53,10 @@
   \lhead{\includegraphics{template/img/thm_header.png}}
   \rhead{\includegraphics{template/img/stdpl_header.png}}
   \lfoot{}
-  \rfoot{\includegraphics[width=5.9cm]{\MyLogo}}
+
+  \ifdef{\MyLogo}{
+    \rfoot{\includegraphics[width=5.9cm]{\MyLogo}}
+  }
 }
 
 % Für spezielle Seiten (Inhlatsangabe, neue Kapitel, LitVerz., ...)

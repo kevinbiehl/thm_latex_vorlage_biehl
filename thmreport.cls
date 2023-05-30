@@ -241,6 +241,9 @@
   \addbibresource{\MyBibpath}
 }
 
+%Zitat mit vgl.
+\newcommand{\citevgl}[1]{\cite[vgl.][]{#1}}
+
 % Nummerierung von Abbildungen und Tabellen fortlaufend und nicht Kapitelabhängig
 \counterwithout{figure}{chapter}
 \counterwithout{table}{chapter}
