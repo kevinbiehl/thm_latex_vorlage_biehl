@@ -119,12 +119,12 @@
   }{
     \ifthenelse{\equal{\MyType}{praxis}}{
     % Dokument ist ein Praxisphasenbericht    
-    \def\reporttype{\MyNummerPP. Praxisphase im \MySemester}
+    \def\reporttype{Bericht der \MyNummerPP. Praxisphase}
     \def\reportsubtype{ }
     }{
       \ifthenelse{\equal{\MyType}{projekt}}{
         % Dokument ist ein Praxisphasenbericht    
-        \def\reporttype{Projektstudium im \MySemester}
+        \def\reporttype{Projektstudiumsbericht}
         \def\reportsubtype{ }
       }{
         \ifthenelse{\equal{\MyType}{projektphase}}{

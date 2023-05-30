@@ -11,6 +11,7 @@
 
 % Blau für Linie in der Kopfzeile
 \definecolor{customBlue}{RGB}{29,79,149}
+\definecolor{thmGreen}{RGB}{128,186,36}
 
 % Maße des Papiers und der Seitenränder
 \usepackage[
@@ -54,6 +55,7 @@
   \rhead{\includegraphics{template/img/stdpl_header.png}}
   \lfoot{}
 
+
   \ifdef{\MyLogo}{
     \rfoot{\includegraphics[width=5.9cm]{\MyLogo}}
   }
@@ -75,12 +77,12 @@
   \fancyhead[L]{\nouppercase{\leftmark}}
   \fancyfoot[R]{\thepage}
 
-  % Blauer Streifen oben, kein Streifen unten
-  \renewcommand{\headrulewidth}{1pt}
+  % Streifen oben, kein Streifen unten
+  \headrulecolor{thmGreen}
+  \renewcommand{\headrulewidth}{2pt}
   \renewcommand{\footrulewidth}{0pt}
 
   \ifdef{\MyLogo}{
-    \headrulecolor{customBlue}
     \rhead{\includegraphics[width=4.2cm]{\MyLogo}}
   }
   
@@ -104,12 +106,12 @@
   \fancyhead[L]{\nouppercase{\leftmark}}
   \fancyfoot[R]{\thepage}
 
-  % Blauer Streifen oben, kein Streifen unten
-  \renewcommand{\headrulewidth}{1pt}
+  % Streifen oben, kein Streifen unten
+  \headrulecolor{thmGreen}
+  \renewcommand{\headrulewidth}{2pt}
   \renewcommand{\footrulewidth}{0pt}
 
   \ifdef{\MyLogo}{
-    \headrulecolor{customBlue}
     \rhead{\includegraphics[width=4.2cm]{\MyLogo}}
   }
   
