@@ -168,3 +168,15 @@ Es sind einige packages nötig, um die Funktionalität der Vorlage bereitzustell
 
 ## Packages nur für das Beispiel benötigt: 
 * `chemformula`: Erlaubt das Einfügen von chemischen Formeln mittels `\ch`.
+
+## Nützliche VSCode Extensions für LaTeX:
+- https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+- https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-german
+- https://marketplace.visualstudio.com/items?itemName=adamvoss.vscode-languagetool-de
+- https://marketplace.visualstudio.com/items?itemName=adamvoss.vscode-languagetool
+- https://marketplace.visualstudio.com/items?itemName=davidlday.languagetool-linter
+- https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex
+- https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
+- https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities
+- https://marketplace.visualstudio.com/items?itemName=nickfode.latex-formatter
+- https://marketplace.visualstudio.com/items?itemName=stkb.rewrap
