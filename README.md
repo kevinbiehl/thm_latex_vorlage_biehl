@@ -1,8 +1,10 @@
+# Beschreibung 
+
 Dieses Projekt enthält eine LaTeX documentclass sowie ein Beispieldokument zur Erstellung von Praxisphasenberichten im Rahmen der THM und StudiumPlus.
 
 Als Vorlage wurden die Formatvorgaben aus dem Dokument "Richtlinien zum Wissenschaftlichen Arbeiten" (Stand Okt. 2019) benutzt.
 
-Diese Vorlage ist eine Erweiterung von: [github.com/jnnks/thmreport](https://github.com/jnnks/thmreport)
+Diese Vorlage ist eine Erweiterung von: [github.com/jnnks/thmreport](https://github.com/jnnks/thmreport) & [github.com/leonknauf/thmreport](https://github.com/leonknauf/thmreport)
 
 Ein Beispieldokument kann [hier](https://github.com/leonknauf/thmreport/blob/master/example.pdf) angesehen werden.
 
