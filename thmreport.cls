@@ -35,6 +35,9 @@
     style=template/LNI_custom,%
     hyperref=auto,
     block=space]{biblatex}
+  \usepackage{xpatch}
+  \xpretobibmacro{author}{\mkbibbold\bgroup}{}{}
+  \xapptobibmacro{author}{\egroup}{}{}
   \addbibresource{\MyBibpath}
 }
 
