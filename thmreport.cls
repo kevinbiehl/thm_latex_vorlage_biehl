@@ -241,7 +241,7 @@
   \addbibresource{\MyBibpath}
 }
 
-%Zitat mit vgl.(vgl. [23])
+%Zitat mit vgl. --> (vgl. [...])
 \newcommand{\citevgl}[1]{(vgl. \cite[]{#1})}
 
 % Nummerierung von Abbildungen und Tabellen fortlaufend und nicht Kapitelabhängig
