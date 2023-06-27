@@ -29,6 +29,11 @@
 \newcommand{\headrulecolor}[1]{\patchcmd{\headrule}{\hrule}{\color{#1}\hrule}{}{}}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 
+% Fußzeilen Ausrichtung 
+\usepackage[bottom]{footmisc}
+\usepackage{scrextend}
+\deffootnote[2em]{2em}{1em}{\textsuperscript{\thefootnotemark}\,}
+
 % pagestyle für das Titelblatt
 \fancypagestyle{titlepage}{
     
