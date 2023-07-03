@@ -182,3 +182,23 @@ Es sind einige packages nötig, um die Funktionalität der Vorlage bereitzustell
 - https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities
 - https://marketplace.visualstudio.com/items?itemName=nickfode.latex-formatter
 - https://marketplace.visualstudio.com/items?itemName=stkb.rewrap
+
+## Zotero verwenden fürs automatische Zitieren
+1. Zotero herunterladen & die Browser Extension
+2. Ggf. unter Bearbeiten → Einstellungen ein Benutzerkonto erstellen zum Synchronisieren
+3. Zotero Erweiterung Better BibteX hinzufügen (https://retorque.re/zotero-better-bibtex/installation/)
+4. VSC Erweiterung "Zotero LaTeX" herunterladen
+5. Auf eine Webseite geben und auf die Zotero Browser Erweiterung klicken (Zotero muss offen sein!)
+6. Dann sollte automatisch in Zotero die Quelle hinzugefügt werden
+7. In Zotero auf Datei → Biblotehk Exportieren → BetterBibLaTeX
+8. Speichern im Projektordner & in der main.tex unter MyBibpath die exportierte Zotero Datei angeben
+9. Sobald man jetzt neue Quellen hinzufügt, sollte automatisch die .bib Datei aktualisiert werden
+10. In VSCode kann man mit Alt+Z → kleines Fenster sollte sich öffnen → eine neue Quelle einfügen.
+
+### Settings: 
+Zotero: Einstellungen → BetterBibTeX → Citation keys - auth.lower + shorttitle(3,3) + year
+Zatero LaTeX: VSC Erweiterungseinstellungen → Zotero Command - citevgl 
+
+- https://www.zotero.org/
+- https://retorque.re/zotero-better-bibtex
+- https://marketplace.visualstudio.com/items?itemName=bnavetta.zoterolatex
