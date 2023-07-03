@@ -190,7 +190,7 @@ Es sind einige packages nötig, um die Funktionalität der Vorlage bereitzustell
 4. VSC Erweiterung "Zotero LaTeX" herunterladen
 5. Auf eine Webseite geben und auf die Zotero Browser Erweiterung klicken (Zotero muss offen sein!)
 6. Dann sollte automatisch in Zotero die Quelle hinzugefügt werden
-7. In Zotero auf Datei → Biblotehk Exportieren → BetterBibLaTeX
+7. In Zotero auf Datei → Biblotehk Exportieren → BetterBibLaTeX → Hacken bei "Keep Updated"!
 8. Speichern im Projektordner & in der main.tex unter MyBibpath die exportierte Zotero Datei angeben
 9. Sobald man jetzt neue Quellen hinzufügt, sollte automatisch die .bib Datei aktualisiert werden
 10. In VSCode kann man mit Alt+Z → kleines Fenster sollte sich öffnen → eine neue Quelle einfügen.
