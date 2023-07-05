@@ -86,6 +86,7 @@
 \renewcommand\cfttabnumwidth{\setlength{58pt}}
 \renewcommand\cfttabpresnum{Tabelle }
 \renewcommand\cfttabaftersnum{:}
+\renewcommand{\arraystretch}{1.2} % Zeilenabstand anpassen
 
 % Zeilenabstand 1.5-fach
 \onehalfspacing
